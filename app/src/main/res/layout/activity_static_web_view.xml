@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:im="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/web_headbar_layout"
+        android:layout_height="45dp">
+
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="14.5dp"
+            android:layout_height="14.5dp"
+            android:src="@drawable/webview_close"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="50dp"
+            android:visibility="gone"/>
+    </FrameLayout>-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <!--<com.kuaima.kuailai.common.ui.component.webview.RichWebView-->
+            <!--android:id="@+id/common_operations_web_view"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"/>-->
+        <com.game.box.gamebox.webview.SwipeRefreshWebView
+            android:id="@+id/common_operations_web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <!-- 404图标 -->
+        <LinearLayout
+            android:id="@+id/job_kzpay_error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <!--<com.wuba.bangbang.uicomponents.IMImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:background="@drawable/job_error" />-->
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

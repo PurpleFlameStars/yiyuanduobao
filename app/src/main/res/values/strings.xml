@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lucky Time</string>
+    <string name="common_send_sms_fail">发送短信失败</string>
+    <string name="facebook_app_id">2465684113512658</string>
+    <string name="fb_login_protocol_scheme">fb2465684113512658</string>
+
+</resources>

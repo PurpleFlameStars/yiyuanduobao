@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "488421178485",
+    "firebase_url": "https://luckytime-d8a29.firebaseio.com",
+    "project_id": "luckytime-d8a29",
+    "storage_bucket": "luckytime-d8a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488421178485:android:6a3a33ee7f2fa8563c8c3c",
+        "android_client_info": {
+          "package_name": "com.sihai.shopping.snatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488421178485-ebkj925f2iqg178g90fsj25b5q4bajgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sihai.shopping.snatch",
+            "certificate_hash": "7611322340a69364417629948d1abe3a1fc3d74e"
+          }
+        },
+        {
+          "client_id": "488421178485-776gqsle35m386m3ol84hpktkudr848f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs9LUztEXlgmGy1X7W-f9ud7GNF87pjaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488421178485-776gqsle35m386m3ol84hpktkudr848f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

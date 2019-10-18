@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/job_web_error_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <!--<com.wuba.bangbang.uicomponents.IMImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:background="@drawable/no_phone_number_icon"/>-->
+
+    <include layout="@layout/view_nonetnews" android:id="@+id/job_error_layout"/>
+</LinearLayout>
